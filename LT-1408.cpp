@@ -20,7 +20,7 @@ vector<string> stringMatching(vector<string> &words)
 }
 int main()
 {
-    vector<string> words = {"leetcoder","leetcode","od","hamlet","am"};
+    vector<string> words = {"leetcoder", "leetcode", "od", "hamlet", "am"};
     vector<string> res = stringMatching(words);
     for (auto const &r : res)
     {
