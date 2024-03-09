@@ -10,7 +10,7 @@ int getCommon(vector<int> &nums1, vector<int> &nums2)
     {
         if (nums1[i] == nums2[j])
             return nums1[i];
-        else if(nums1[i] > nums2[j])
+        else if (nums1[i] > nums2[j])
             j++;
         else
             i++;
