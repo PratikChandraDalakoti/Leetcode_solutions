@@ -11,7 +11,7 @@ cd /d/Placement/SELF/CODING/DSA/Leetcode
 
 # Add all changes to the staging area
 git add "$1.cpp"
-current_date=$(date +"%Y-%m-%d %H:%M:%S")
+current_date=$(date +"%d-%m-%Y %H:%M:%S")
 # Commit changes with the provided commit message
 git commit -m "$1: $current_date"
 
