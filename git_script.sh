@@ -10,12 +10,12 @@ fi
 cd /d/Placement/SELF/CODING/DSA/Leetcode
 
 # Add all changes to the staging area
-git add .
+git add "$1.cpp"
 current_date=$(date +"%Y-%m-%d %H:%M:%S")
 # Commit changes with the provided commit message
 git commit -m "$1: $current_date"
 
 # Push changes to the remote repository (assuming origin and main branch)
-git push origin main
+git push origin master
 
 echo "Changes pushed to GitHub with commit message: $1: $current_date"
